@@ -25,3 +25,12 @@ turtle.forward(600)
 turtle.right(90)
 turtle.forward(500)
 turtle.penup()
+
+# Snake
+snake =turtle.Turtle()
+snake.speed(0)
+snake.shape('square')
+snake.color('black')
+snake.penup()
+snake.goto(0,0)
+snake.direction ='stop'
